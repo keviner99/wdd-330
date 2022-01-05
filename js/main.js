@@ -10,10 +10,10 @@ function loadIndex() {
 
         const li = document.createElement("li");
         const href = document.createElement("a");
-        href.setAttribute("href", li.url);
-        href.innerText = li.label;
+        href.setAttribute("href", link.url);
+        href.innerText = link.label;
 
-        link.appendChild(href);
+        li.appendChild(href);
         ol.appendChild(li);
     })
 
