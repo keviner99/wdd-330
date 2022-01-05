@@ -8,13 +8,13 @@ function loadIndex() {
 
     links.forEach(link => {
 
-        const link = document.createElement("li");
+        const li = document.createElement("li");
         const href = document.createElement("a");
-        href.setAttribute("href", link.url);
-        href.innerText = link.label;
+        href.setAttribute("href", li.url);
+        href.innerText = li.label;
 
         link.appendChild(href);
-        ol.appendChild(link);
+        ol.appendChild(li);
     })
 
 }
