@@ -2,8 +2,10 @@
 <html>
 <head>
   <title>Story Writer</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/week1.css">
   <script src="js/editor.js"></script>
+  <script defer src="/js/dates.js"></script> 
 
   <style>
 
@@ -11,14 +13,22 @@
 </head>
 
 <body>
-  <h1>Story Editor</h1>
-	Story Name:<input id=name_input></input>
-  <section>
-    <button onclick="loadStory()">Find and Edit it</button>
-    <button onclick="saveStory()">Save it</button>
-    <button onclick="displayStory()">Display</button>
-  </section>
-  <textarea id="story_editor" placeholder="Write a totally awesome story here."></textarea>
-  <section id="story_display"></section>
+  <main>
+    <header>
+      <h1>Story Editor</h1>
+    </header>
+	  <p>Story Name:<input id="name_input"></input></p>
+    <section>
+      <button onclick="loadStory()">Find and Edit it</button>
+      <button onclick="saveStory()">Save it</button>
+      <button onclick="displayStory()">Display</button>
+    </section>
+    <textarea id="story_editor" placeholder="Write a totally awesome story here."></textarea>
+    <h3>Your text should be display here:</h3>
+    <section id="story_display"></section>
+  </main>
+  <footer>
+    &copy; <span id="copyrightyear"></span> | Kevin Espinoza | Lima | <a href="/index.html">WDD 330 Portfolio</a>
+  </footer>
 </body>
 </html>

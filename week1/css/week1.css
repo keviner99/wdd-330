@@ -35,4 +35,15 @@ textarea {
     width: 800px;
     height: 250px;
     background-color: lightblue;
+    padding: 0.5em;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    padding: 0.5em;
+}
+
+#story_display {
+    padding: 0.5em;
 }
