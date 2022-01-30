@@ -1,49 +1,66 @@
-header,
-main,
-footer {
-    max-width: 890px;
-    margin: 0 auto;
-}
-
-body {
-    font-size: 20px;
-}
-
-p {
-    padding: 0.5em;
-}
-
-header,
-footer {
-    background-color: #1887ab;
-    color: white;
-    padding: 1em;
-    text-align: center;
-}
-
-footer a {
-    color: white;
-}
-
-.title {
-    background-color: black;
-    color: white;
-    padding: 0.5em;
-}
-
-textarea {
-    width: 800px;
-    height: 250px;
-    background-color: lightblue;
-    padding: 0.5em;
-}
-
-button {
-    background-color: darkcyan;
-    color: white;
-    padding: 0.5em;
-}
-
-#story_display {
-    padding: 0.5em;
-}
+                        header,
+                        main,
+                        footer {
+                            max-width: 890px;
+                            margin: 0 auto;
+                        }
+                        
+                        body {
+                            font-size: 20px;
+                        }
+                        
+                        p {
+                            padding: 0.5em;
+                        }
+                        
+                        header,
+                        footer {
+                            background-color: #1887ab;
+                            color: white;
+                            padding: 1em;
+                            text-align: center;
+                        }
+                        
+                        footer a {
+                            color: white;
+                        }
+                        
+                        .title {
+                            background-color: black;
+                            color: white;
+                            padding: 0.5em;
+                        }
+                        
+                        textarea {
+                            width: 800px;
+                            height: 250px;
+                            background-color: lightblue;
+                            padding: 0.5em;
+                        }
+                        
+                        button {
+                            background-color: darkcyan;
+                            color: white;
+                            padding: 0.5em;
+                        }
+                        
+                        #story_display {
+                            padding: 0.5em;
+                        }
+                        
+                        #return-btn {
+                            background-color: black;
+                            color: white
+                        }
+                        
+                        @media only screen and (min-width: 40em) {
+                            #return-btn {
+                                position: relative;
+                            }
+                        }
+                        
+                        @media only screen and (min-width: 60em) {
+                            #return-btn {
+                                position: relative;
+                            }
+                        }
