@@ -1,25 +1,56 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 330</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This id week 4 page." />
+    <title>WDD 330 Portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/tictactoe.css">
     <link rel="stylesheet" href="css/week4.css">
-    <script defer src="/js/dates.js"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <!-- social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- fabicon -->
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <!-- scripts -->
+    <script src="js/tictactoe.js" defer></script>
+
+
 </head>
 
 <body>
+
     <header>
         <h1>WDD 330 Portfolio</h1>
     </header>
-    <main>
-        <h2>Week 4</h2>
+
+    <!-- main  -->
+    <main class="tictactoe">
+
+        <div class="container">
+            <h1 id="playText">Tic Tac Toe</h1>
+            <button id="restartBtn">Restart</button>
+            <div id="gameboard">
+                <div class="box" id="0"></div>
+                <div class="box" id="1"></div>
+                <div class="box" id="2"></div>
+                <div class="box" id="3"></div>
+                <div class="box" id="4"></div>
+                <div class="box" id="5"></div>
+                <div class="box" id="6"></div>
+                <div class="box" id="7"></div>
+                <div class="box" id="8"></div>
+            </div>
 
 
     </main>
+
     <footer>
         &copy; <span id="copyrightyear"></span> | Kevin Espinoza | Lima | <a href="https://keviner99.github.io/wdd-330/portfolio.html">WDD 330 Portfolio</a>
     </footer>
