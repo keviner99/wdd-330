@@ -32,7 +32,49 @@
         </div>
         <div>
             <h2 class="title">Notes</h2>
-            
+            <section>
+                <h3>Chapter 10: Testing and Debugging</h3>
+                <p>
+                    Errors and bugs are a fact of life in programming ― they will always be there.Errors are caused when something goes wrong in a program. They are usually caused by one of the following:
+                </p>
+                <ul>
+                    <li>System error ― there's a problem with the system or external devices with which the program is interacting.</li>
+                    <li>Programmer error ― the program contains incorrect syntax or faulty logic; it could even be as simple as a typo.</li>
+                    <li>User error ― the user has entered data incorrectly, which the program is unable to handle.</li>
+                </ul>
+                <section>
+                    <h4>Exceptions</h4>
+                    <ul>
+                        <li>An exception is an error that produces a return value that can then be used by the program to deal with the error. </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Stack Traces</h4>
+                    <ul>
+                        <li>An exception will also produce a stack trace. This is a sequence of functions or method calls that lead to the point where the error occurred. It's often not just a single function or method call that causes an error.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Warnings</h4>
+                    <ul>
+                        <li>A warning can occur if there's an error in the code that isn't enough to cause the program to crash. This means the program will continue to run after a warning.</li>
+                        <li>When a runtime error occurs in the browser, the HTML will still appear, but the JavaScript code will stop working in the background, which isn't always obvious at first.</li>
+                        <li>ECMAScript 5 introduced a strict mode that produces more exceptions and warnings and prohibits the use of some deprecated features. </li>
+                        <li>Linting tools such as JS Lint,JS Hint, and ES Lint can be used to test the quality of JavaScript code, beyond simply using strict mode.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Using the console</h4>
+                    <ul>
+                        <li>Most modern JavaScript environments have a console object that provides a number of methods for logging information and debugging.</li>
+                        <li>The console.log() method can be used to log the value of variables at different stages of the program, although it will not actually stop the execution of the program in the same way as alert() does.</li>
+                        <li>The console.trace() method will log an interactive stack trace in the console. This will show the functions that were called in the lead up to an exception occurring while the code is running.</li>
+                    </ul>
+                </section>
+            </section>
 
         </div>
     </main>
