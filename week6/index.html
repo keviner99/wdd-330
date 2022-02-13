@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo List</title>
+    <link rel="stylesheet" href="css/todo.css">
 </head>
 
 <body>
@@ -16,25 +17,25 @@
 
             </div>
 
-            <div class="Todos filters">
-                <button id="allFilter">All</button>
-                <button id="activeFilter">Active</button>
-                <button id="completedFilter">Completed</button>
+            <div id="filter container" class="filter-container">
+                <button id="btn1" class="filter-all">All</button>
+                <button id="btn2" class="filter-active">Active</button>
+                <button id="btn3" class="filter-completed">Completed</button>
 
             </div>
         </div>
 
-        <div class="Add todos wrapper">
-            <input id="todo input" type="text">
-            <button id="addbtn">Add</button>
+        <div class="Add todos wrapper ">
+            <input id="todo-input " type="text" placeholder="List item..">
+            <span class="addBtn">Add</span>
 
         </div>
 
         <div>
             <h2>Outcome</h2>
             <section>
-                <div id="todo-container">
-                    <ul id="list" class="todo-list"></ul>
+                <div id="todo-container " class="todo-container ">
+                    <ul id="list " class="todo-list "></ul>
 
                 </div>
             </section>
@@ -42,7 +43,7 @@
         </div>
 
     </div>
-    <script src=""></script>
+    <script src="js/todo.js "></script>
 </body>
 
 </html>
