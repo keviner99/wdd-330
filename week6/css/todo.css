@@ -1,0 +1,64 @@
+.container {
+    padding: 50px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+
+.addBtn {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    height: 3em;
+    border-radius: 0;
+    font-size: 1em;
+    background-color: hsl(194, 93%, 45%);
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background: #37a4cf;
+    font-size: 1em;
+    align-items: center;
+}
+
+.all:nth-child(odd) {
+    background: hsl(216, 92%, 60%);
+}
+
+.all:hover {
+    background: rgb(206, 182, 182);
+}
+
+.crossed {
+    text-decoration: line-through;
+    color: white;
+}
+
+.done {
+    background-color: #2F2F2F;
+}
+
+.done:nth-child(odd) {
+    background: #2F2F2F;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: initial;
+}
