@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Russo+One&display=swap');
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+body {
+    background-image: url("../images/deathstar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
+       
+    
+}
+
+section {
+   
+    padding: 1em;
+    margin-bottom: .5em;
+    max-width: 400px;
+    
+    
+}
+
+h2 {
+ color: #ffe81f;
+ text-align: center;
+ font-family: 'Russo One', sans-serif;
+ text-transform: uppercase;
+ font-size: 2em;
+ 
+}
+
+p {
+ color: #ffe81f;
+ font-family: 'Pathway Gothic One', sans-serif;
+ text-transform: uppercase;
+ font-size:1.5em;
+ font-weight:200;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h2 {
+    color:#10D1FF;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2.5em;
+}
+
+p {
+    color: #10D1FF;
+    text-transform: capitalize;
+}
+
+}
