@@ -20,7 +20,7 @@ const links = [{
         url: "week5/index.html"
     },
     {
-        label: "Week6 notes",
+        label: "Code challenge 1",
         url: "week6/index.html"
     },
     {
@@ -42,7 +42,7 @@ const links = [{
 ]
 
 const links2 = [{
-        label: "Week11 notes",
+        label: "Week11 activity",
         url: "week11/week11.html"
     },
     {
