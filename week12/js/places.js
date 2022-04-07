@@ -61,7 +61,7 @@ const placebutton = document.getElementById("showrandomplace");
 placebutton.addEventListener("click", showrandom);
 
 function showrandom() {
-    var x = document.getElementById("randomplace");
+    let x = document.getElementById("randomplace");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {
@@ -73,7 +73,7 @@ const listbutton = document.getElementById("listbutton");
 listbutton.addEventListener("click", showlist);
 
 function showlist() {
-    var x = document.getElementById("placeList");
+    let x = document.getElementById("placeList");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {

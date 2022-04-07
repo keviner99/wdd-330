@@ -4,3 +4,52 @@ footer {
     max-width: 890px;
     margin: 0 auto;
 }
+
+body {
+    font-size: 20px;
+}
+
+p {
+    padding: 0.5em;
+}
+
+header,
+footer {
+    background-color: #ee6666;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+#nam {
+    color: white;
+}
+
+#city {
+    color: white;
+}
+
+#tourcost {
+    color: white;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    padding: 1em;
+    font-size: 18px;
+}
+
+#title {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+#randomplace {
+    background-color: rgb(133, 18, 24);
+}
