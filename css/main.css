@@ -1,59 +1,123 @@
-header,
-main,
-footer {
-    max-width: 890px;
-    margin: 0 auto;
-}
-
-body {
-    font-size: 20px;
-}
-
-header,
-footer {
-    background-color: #1887ab;
-    color: white;
-    padding: 1em;
-    text-align: center;
-}
-
-footer a {
-    color: white;
-    display: grid;
-}
-
-@media only screen and (min-width: 40em) {
-    footer a {
-        display: inline;
-    }
-    h1 {
-        font-size: 30px;
-    }
-    h2 {
-        font-size: 25px;
-    }
-    p {
-        font-size: 20px;
-    }
-    ol li {
-        font-size: 23px;
-    }
-}
-
-@media only screen and (min-width: 60em) {
-    footer a {
-        display: inline;
-    }
-    h1 {
-        font-size: 40px;
-    }
-    h2 {
-        font-size: 35px;
-    }
-    p {
-        font-size: 25px;
-    }
-    ol li {
-        font-size: 26px;
-    }
-}
+        header,
+        main,
+        footer {
+            max-width: 890px;
+            margin: 0 auto;
+        }
+        
+        body {
+            font-size: 20px;
+            background-color: white;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+        
+        .myimage {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        header,
+        footer {
+            background-color: #1887ab;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        
+        ol li {
+            background-color: black;
+            color: white;
+            padding: 0.5em;
+        }
+        
+        footer a {
+            color: white;
+            display: grid;
+        }
+        
+        ol li a {
+            color: white;
+        }
+        
+        @media only screen and (min-width: 40em) {
+            footer a {
+                display: inline;
+            }
+            h1 {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 20px;
+            }
+            ol li {
+                font-size: 23px;
+                background-color: black;
+                color: white;
+            }
+            ol li a {
+                color: white;
+            }
+            .myimage {
+                float: right;
+                width: 500px;
+                height: 400px;
+                margin-top: 100px;
+                padding: 0.5em;
+            }
+        }
+        
+        @media only screen and (min-width: 60em) {
+            footer a {
+                display: inline;
+            }
+            h1 {
+                font-size: 40px;
+            }
+            h2 {
+                font-size: 35px;
+            }
+            h4 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 25px;
+            }
+            ol li {
+                font-size: 26px;
+                background-color: black;
+                color: white;
+                padding: 0.5em;
+            }
+            ol li a {
+                color: white;
+            }
+            .side {
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+            }
+            .main {
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+            }
+            .column {
+                float: left;
+                width: 50%;
+                margin-top: 6px;
+                padding: 20px 30px;
+            }
+            .myimage {
+                float: right;
+                width: 500px;
+                height: 400px;
+                padding: 0.5em;
+                margin-top: 150px;
+            }
+        }
