@@ -1,0 +1,94 @@
+[{
+        "name": "Chan Chan",
+        "city": "Trujillo",
+        "tourcost": "105.00 USD"
+
+    },
+    {
+        "name": "Huascaran National Park",
+        "city": "Ancash",
+        "tourcost": "198.61 USD"
+
+    },
+    {
+        "name": "Barranco",
+        "city": "Lima",
+        "tourcost": "10.00 USD"
+
+    },
+    {
+        "name": "Machu Picchu",
+        "city": "Cuzco",
+        "tourcost": "250.00 USD"
+
+    },
+    {
+        "name": "The Inca Trail",
+        "city": "Cuzco",
+        "tourcost": "550.00 USD"
+
+    },
+    {
+        "name": "Cuzco's Architectural Treasures",
+        "city": "Cuzco",
+        "tourcost": "500.00 USD"
+
+    },
+    {
+        "name": "Lake Titicaca",
+        "city": "Puno",
+        "tourcost": "260.00 USD"
+
+    },
+    {
+        "name": "Colca Canyon",
+        "city": "Arequipa",
+        "tourcost": "50.00 USD"
+
+    },
+
+    {
+        "name": "Nazca Lines",
+        "city": "Ica",
+        "tourcost": "95.00 USD"
+
+    },
+    {
+        "name": "The Sacred Valley",
+        "city": "Cusco",
+        "tourcost": "135.00 USD"
+
+    },
+    {
+        "name": "Arequipa's Historical City Center",
+        "city": "Arequipa",
+        "tourcost": "68.69 USD"
+
+    },
+    {
+        "name": "Puerto Maldonado",
+        "city": "Madre de Dios",
+        "tourcost": "180.00 USD"
+
+    },
+
+    {
+        "name": "Lima's Historic Center",
+        "city": "Lima",
+        "tourcost": "24.00 USD"
+
+    },
+    {
+        "name": "Sand Dunes at Huacachina",
+        "city": "Ica",
+        "tourcost": "65.00 USD"
+
+    },
+    {
+        "name": "Ballestas Islands",
+        "city": "Pisco",
+        "tourcost": "45.00 USD"
+
+    }
+
+]
