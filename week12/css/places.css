@@ -53,3 +53,9 @@ button {
 #randomplace {
     background-color: rgb(133, 18, 24);
 }
+
+.cards {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
